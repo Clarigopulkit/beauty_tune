@@ -1,0 +1,556 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(./Fonts/CarlaSansRegular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+.bookAppoint {
+  color: #18debd;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.header {
+  background-color: rgb(8, 80, 68);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  color: whitesmoke;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.header_font {
+  font-size: 14px;
+}
+.beautyTune {
+  height: 24vh;
+  /* margin: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 222, 221);
+  color: black;
+}
+.beautytone_image {
+  margin-top: 40px;
+}
+.navbar {
+  height: 10vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.searchBar {
+  flex: 1;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchIcon {
+  cursor: pointer;
+}
+
+.navigation {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: myFirstFont !important;
+}
+
+.nav {
+  margin: 0 10px 0 10px;
+  cursor: pointer;
+  color: #085044 !important;
+  font-family: myFirstFont !important;
+  font-size: 1rem;
+}
+
+.account {
+  flex: 1;
+  background: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (width >=992px) {
+  .hamberger {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 578px) and (max-width: 992px) {
+  .navigation,
+  .searchBar,
+  .account {
+    display: none;
+  }
+
+  .hamberger {
+    float: right;
+    margin-left: 20px;
+  }
+}
+
+.formBox {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(252, 247, 247);
+  background-image: url("./photos/login.png");
+  background-repeat: no-repeat;
+  background-position: center 10%;
+}
+.form {
+  height: 80vh;
+  width: 30vw;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #debcbb;
+  overflow: hidden;
+}
+
+.formHeader {
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logIn {
+  flex: 1;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #085044;
+  text-transform: uppercase;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border: 1px solid #debcbb;
+}
+
+.logInActive {
+  flex: 1;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #085044;
+  text-transform: uppercase;
+  background-color: #f0f0f0;
+  background-color: #ffdedd;
+  border-bottom: 3px solid #b784a7;
+  cursor: pointer;
+}
+
+.registerActive {
+  flex: 1;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #085044;
+  text-transform: uppercase;
+  background-color: #f0f0f0;
+  background-color: #ffdedd;
+  border-bottom: 3px solid #b784a7;
+  cursor: pointer;
+}
+
+.logintoyouraccount {
+  color: #446354;
+  padding: 16px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: HelveticaBd !important;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.input_fields {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form_control_text {
+  color: #085044 !important;
+  font-weight: 600 !important;
+  padding: 20px !important;
+  margin: 0px 0px 0px 5px;
+  width: 23vw;
+  border-color: #085044;
+  background-color: white;
+  height: 1.1876em;
+  border-radius: 50px;
+}
+
+.check_me_out {
+  background-color: #085044;
+  margin: 5px;
+  color: #085044;
+  border-color: #085044;
+  margin-left: -10px;
+}
+.checkboxForgotPassword {
+  width: 23vw;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.Loginbtn {
+  background: #085044;
+  margin-top: 10px;
+  color: white;
+  width: 23vw;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 50px;
+  border: none;
+}
+
+/* Register css */
+
+.nameWithEmailBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 62px 15px 60px;
+  width: 23vw;
+}
+
+.register_name {
+  color: #085044 !important;
+  font-weight: 600 !important;
+  padding: 20px !important;
+  width: 11vw;
+  border-color: #085044;
+  background-color: white;
+  height: 1.1876em;
+  border-radius: 50px;
+}
+
+
+.user_type_box {
+  border-color: #085044;
+  margin: 0px 0px 0px 20px;
+}
+.user_type {
+  margin: -7px 60px 5px 50px;
+}
+.js518 {
+  border: 10px #085044;
+}
+
+.errormsgfullname {
+  color: red;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-top: -20px !important;
+  margin-left: -27vh !important;
+  margin: 0;
+}
+.registerpassworderror {
+  color: red;
+  margin-left: -24vh !important;
+  margin: 0;
+}
+.registercpassworderror {
+  color: red;
+}
+
+.errormsgemail {
+  color: red;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-left: -30vh !important;
+  margin: 0;
+}
+
+.usererrormsg {
+  font-size: 15px;
+  color: red;
+  letter-spacing: 1px;
+  margin: 0;
+  margin-left: -23vh;
+}
+.register_email {
+  color: #085044 !important;
+  font-weight: 600 !important;
+  padding: 20px !important;
+  width: 11vw;
+  border-color: #085044;
+  background-color: white;
+  height: 1.1876em;
+  border-radius: 50px;
+}
+
+.register_password {
+  color: #085044 !important;
+  font-weight: 600 !important;
+  padding: 20px !important;
+  margin: 0px 40px 0px 40px;
+  width: 23vw;
+  border-color: #085044;
+  background-color: white;
+  height: 1.1876em;
+  border-radius: 50px;
+}
+
+.registerbtn {
+  background: #085044;
+  margin: 10px 60px 15px 60px;
+  color: white;
+  width: 23vw;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 50px;
+  border: none;
+}
+.registornow {
+  font-size: 15px;
+  margin: 0;
+}
+
+.alreadyRegister {
+  font-size: 15px;
+  margin: 0;
+}
+
+.errormsg {
+  color: red;
+  margin-top: 0;
+}
+.loginemailerror {
+  color: red;
+  margin-top: 0;
+  margin-left: -30vh;
+}
+.loginpassworderror {
+  color: red;
+  margin-top: 0;
+  margin-left: -26vh;
+}
+
+.visibilityIcon {
+  position: absolute;
+  float: right;
+  margin: 7px;
+  margin-left: -40px;
+}
+
+.Register_visibilityIcon {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: -10.2vh;
+}
+
+.formBody {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.noaccount {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.footer {
+  height: 50vh;
+  background-color: rgb(8, 80, 68);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 578px) and (max-width: 750px) {
+  .footer {
+    height: 100vh;
+  }
+}
+.logoFooter {
+  color: white;
+  height: 40vh;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.company {
+  /* border : 1px solid yellow; */
+  height: 40vh;
+  flex: 1;
+  color: white;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.resources {
+  /* border : 1px solid black; */
+  height: 40vh;
+  flex: 1;
+  color: white;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.followUs {
+  flex: 1;
+  height: 40vh;
+  /* border : 2px solid brown; */
+  color: white;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.company_heading,
+.resources_heading,
+.followus_heading {
+  font-size: 18px;
+}
+.resources_heading {
+  margin-left: -24px;
+}
+.followus_heading {
+  margin-right: -20px;
+}
+
+.company_list,
+.resources_list,
+.followus_list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 16px;
+}
+
+.bottomFooter {
+  height: 10vh;
+  background-color: rgb(8, 80, 68);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.registernoaccount {
+  margin-bottom: 3px;
+}
+
+@media only screen and (min-width: 578px) and (max-width: 768px) {
+  .form {
+    height: 85vh;
+    width: 80vw;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #debcbb;
+    overflow: hidden;
+  }
+  .form_control_text {
+    color: #085044 !important;
+    font-weight: 600 !important;
+    padding: 20px !important;
+    margin: 0px 0px 0px 5px;
+    width: 40vw;
+    border-color: #085044;
+    background-color: white;
+    height: 1.1876em;
+    border-radius: 50px;
+  }
+  .checkboxForgotPassword {
+    width: 40vw;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  .form {
+    height: 80vh;
+    width: 60vw;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #debcbb;
+    overflow: hidden;
+  }
+  .form_control_text {
+    color: #085044 !important;
+    font-weight: 600 !important;
+    padding: 20px !important;
+    margin: 0px 0px 0px 5px;
+    width: 35vw;
+    border-color: #085044;
+    background-color: white;
+    height: 1.1876em;
+    border-radius: 50px;
+  }
+  .checkboxForgotPassword {
+    width: 35vw;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+  .form {
+    height: 85vh;
+    width: 60vw;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #debcbb;
+    overflow: hidden;
+  }
+  .form_control_text {
+    color: #085044 !important;
+    font-weight: 600 !important;
+    padding: 20px !important;
+    margin: 0px 0px 0px 5px;
+    width: 25vw;
+    border-color: #085044;
+    background-color: white;
+    height: 1.1876em;
+    border-radius: 50px;
+  }
+  .checkboxForgotPassword {
+    width: 25vw;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+}

@@ -1,0 +1,35 @@
+.navbar {
+    height: 10vh;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .searchBar {
+    flex: 1;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .searchIcon {
+    cursor: pointer;
+  }
+  
+  .navigation {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: myFirstFont !important;
+  }
+  
+  .nav {
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+    color: #085044 !important;
+    font-family: myFirstFont !important;
+    font-size: 22px;
+  }
+  

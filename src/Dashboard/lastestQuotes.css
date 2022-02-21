@@ -1,0 +1,282 @@
+.lastestQuotes_body {
+  height: 116vh;
+  width: 100%;
+  overflow: hidden;
+  background-image: url("../photos/login.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgb(252, 247, 247);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bodyDiv {
+  height: 110vh;
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.topDiv {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.topDiv_leftBox {
+  height: 100%;
+  width: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.dashboardNameBox {
+  flex: 1;
+}
+.dashboardname {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 7px;
+}
+
+.lastestQuotes {
+  flex: 3;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.middleDiv {
+  height: 86vh;
+  background-color: white;
+  width: 100%;
+  border: 2px solid#ffdedd;
+}
+
+.middleDiv_Box {
+  width: 100%;
+  height: 16vh;
+}
+
+.middleDiv_innerbox {
+  width: 100%;
+  height: 100%;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+}
+.innerbox1 {
+  flex: 1.3;
+}
+.innerbox2 {
+  flex: 3;
+  display: grid;
+  column-gap: 10vw;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-auto-flow: column;
+  border-bottom: 2px solid rgb(255, 222, 221);
+}
+
+.innerBoxes1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+}
+
+.doctorImgBox {
+  height: 100%;
+  width: 5vw;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.doctorImg {
+  max-height: 100%;
+  max-width: 80px;
+}
+
+.doctorDetails {
+  height: 100%;
+  width: 10vw;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2vw;
+}
+.doctorName {
+  padding: 0rem;
+  margin: 0;
+}
+.doctorDesignation {
+  padding: 0rem;
+  margin: 0;
+}
+.doctorRating {
+  height: 2vh;
+  width: 5vw;
+  object-fit: contain;
+}
+.ratingImg {
+  height: 2vh;
+  width: 5vw;
+  margin-top: -1vw;
+}
+
+.innerBoxes2 {
+  border-left: 2px solid rgb(255, 222, 221);
+}
+
+.innerboxesbox {
+  padding-left: 2vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.innerboxesbox p {
+  margin: 0;
+}
+.innerBoxes3 {
+  border-left: 2px solid rgb(255, 222, 221);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ViewDetails {
+  border-radius: 50px;
+  background-color: rgb(8, 80, 68);
+  width: 8vw;
+  height: 4vh;
+  border: none;
+  color: white;
+}
+
+.bottomDiv {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bottonDivBox {
+  height: 8vh;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1vw;
+  overflow: hidden;
+}
+
+.bottomInnerDiv1 {
+  max-height: 100%;
+  max-width: 100%;
+  flex: 2.5;
+  /* background-color: aqua !important; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.innerboxbootom {
+  flex: 3;
+  display: grid;
+  column-gap: 10vw;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-auto-flow: column;
+  /* border-bottom: 2px solid rgb(255, 222, 221); */
+}
+.pagination{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin-top: 13px;
+}
+
+
+.paginationBttns li a{
+  border-top: rgb(255, 222, 221);
+  border-bottom: #ffdedd;
+  color:rgb(8, 80, 68);
+}
+
+
+.paginationBttns li:nth-child(2) a{
+  border-top-left-radius: 50px !important;
+  border-bottom-left-radius: 50px !important;
+}
+.paginationBttns li:nth-child(6) a{
+  border-top-right-radius: 50px !important;
+  border-bottom-right-radius: 50px !important;
+}
+  
+.paginationBttns {
+  color: rgb(8, 80, 68);
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid rgb(255, 222, 221);
+  color :rgb(8, 80, 68);
+  cursor: pointer;
+
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: rgb(255, 222, 221);
+}
+
+.paginationBttns li:first-child {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.paginationBttns li:last-child {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: rgb(255, 222, 221);
+}
+
+.previousBttn{
+  display: none;
+}
+
+.nextBttn{
+  display: none;
+}
+
+
+.bottomInnerDiv2 {
+  height: 100%;
+  width: 100%;
+  flex: 1.5;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.paginationNextBtn {
+  background-color: rgb(8, 80, 68);
+  color: white;
+  width: 8vw;
+  height: 4vh;
+  border: none;
+  border-radius: 50px;
+}

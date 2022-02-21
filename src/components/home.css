@@ -1,0 +1,745 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@100&display=swap");
+
+.coverPhoto {
+  background-image: url("./photos/banner.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  display: flex;
+}
+
+.FTcoverPhoto {
+  background-image: url("./photos/FaceBG.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  display: flex;
+}
+
+.coverTextBox {
+  display: flex;
+  align-items: center;
+  margin: 10vh 25vh 10vh 55vw;
+  width: 90%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.covertextinfo {
+  margin-bottom: 20px;
+}
+
+.coverText {
+  color: white !important;
+  font-family: angelinas !important;
+  font-size: 15px;
+  font-family: Dosis !important;
+  line-height: 1.5;
+}
+.coverSign {
+  color: white !important;
+  width: 80%;
+  padding: 10px 0px;
+  z-index: 1;
+  font-size: 24px;
+  font-family: angelinas !important;
+}
+.coverPhotobtn {
+  color: white;
+  font-size: 15px;
+  background: #085044;
+  box-shadow: none !important;
+  font-weight: 600;
+  border-radius: 50px;
+  border: none;
+  max-width: 8rem;
+  min-width: 8rem;
+  height: 2rem;
+}
+
+.infoDiv {
+  min-height: 40vh;
+  background-color: rgb(252, 247, 247);
+  padding: 0 70px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  background-image: url("./photos/bgimg.png");
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.infoDivInnerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+.infoDivIImage {
+  width: 50%;
+}
+.loremIP {
+  text-transform: capitalize !important;
+  font-size: 17px !important;
+  text-align: center;
+  color: #085044 !important;
+  font-family: Dosis Bold !important;
+  margin-top: 5px !important;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.loremtext {
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 14px !important;
+  text-align: center;
+  color: #404040;
+}
+.faceTreatment {
+  height: 90vh;
+  padding: 8vh 8vh 0 8vh;
+  background-color: white;
+}
+.faceTreatmentInnerDiv {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.FTtopDiv {
+  padding: 0 8vh 0 8vh;
+  height: 20vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FTtopDiv1 {
+  height: 100%;
+  width: 350px;
+  overflow: hidden;
+}
+.faceTreatmentLogo {
+  height: 100%;
+  width: 100%;
+}
+
+.FTtopDiv2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FTtopDivBtn {
+  color: white;
+  height: 41px;
+  font-size: 15px;
+  max-width: 10rem;
+  min-width: 10rem;
+  background: #085044;
+  box-shadow: none !important;
+  font-weight: 600;
+  border-radius: 50px;
+  border: none;
+}
+.face_treatment_view_allBtn {
+  text-decoration: none;
+  color: white;
+}
+
+.FTbottomDiv {
+  height: 60vh;
+  padding: 0 8vh 0 8vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.FTbottomInnerDiv {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.FTbottomInnerDivImgBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.FTbottomInnerDivImgBox:hover {
+  position: relative;
+  transition: ease-in 0.3s;
+  transform: scale(1.1);
+}
+
+.FTbottomInnerDivImg {
+  width: 100%;
+  height: 80%;
+}
+
+.FTbottomInnerDivP {
+  text-transform: capitalize !important;
+  font-size: 20px !important;
+  text-align: center;
+  color: #085044 !important;
+  font-family: Dosis Bold !important;
+  margin-top: 5px !important;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.ContentContributor {
+  background-color: rgb(255, 222, 221);
+  height: 70vh;
+  padding: 0vh 8vh 0 8vh;
+}
+
+.CCInnerDiv {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.CCtopDiv {
+  padding: 4vh 8vh 0 8vh;
+  height: 20vh;
+  /* background-color: ; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CCbottomDiv {
+  height: 60vh;
+  padding: 0 8vh 0 8vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: space-evenly;
+}
+
+.CCbottomInnerDivImgBox {
+  padding-top: 0vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.CCbottomInnerDivImg {
+  width: 80%;
+  height: 60%;
+  border-radius: 20px;
+}
+.CCbottomInnerDivImgBox:hover {
+  position: relative;
+  transition: ease-in 0.3s;
+  transform: scale(1.05);
+}
+
+.CCLogo {
+  height: 80%;
+  width: 90%;
+  padding-left: 5%;
+}
+.bodyTreatment {
+  height: 160vh;
+  width: 100%;
+  padding: 8vh 20vh 8vh 20vh;
+  background-color: white;
+  background-image: url("./photos/BTbackground.png");
+  background-position: center 27%;
+  background-size: 100%;
+}
+.bodyTreatmentImgBox {
+  height: 20vh;
+  padding-bottom: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.BTline1 {
+  height: 1px;
+  background-color: black;
+  flex: 4;
+}
+.BTlogo {
+  flex: 2;
+}
+.BTflexbox {
+  height: 108vh;
+  padding: 0 8vh 0 8vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.BTtopdiv {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.BTtopinnerdiv {
+  height: 50vh;
+  width: 80%;
+  background-color: #fafafa;
+  border-radius: 20px;
+}
+
+.BTmiddlediv {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.BTmiddleinnerdiv {
+  height: 50vh;
+  width: 80%;
+  background-color: #fafafa;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.BTbottomdiv {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.BTbottominnerdiv {
+  height: 50vh;
+  width: 80%;
+  background-color: #fafafa;
+  border-radius: 20px;
+}
+.BTbottonDiv {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BTbutton {
+  color: white;
+  height: 41px;
+  font-size: 15px;
+  width: 18vw;
+  background: #085044;
+  font-weight: 600;
+  border-radius: 50px;
+  border: none;
+}
+.influencer {
+  background-color: rgb(255, 222, 221);
+  height: 70vh;
+  padding: 0vh 8vh 0 8vh;
+}
+
+.CCbottomDivInfluencer{
+  height: 80vh;
+  padding: 0 8vh 0 8vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .influencer {
+    background-color: rgb(255, 222, 221);
+    height: 90vh;
+    padding: 0vh 8vh 0 8vh;
+  }
+  .CCbottomDivInfluencer{
+    height: 80vh;
+    padding: 0 8vh 0 8vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-evenly;
+  }
+}
+
+.hairTreatment {
+  height: 100vh;
+  width: 100%;
+  padding: 8vh 20vh 8vh 20vh;
+  background-color: white;
+  background-image: url("./photos/BTbackground.png");
+  background-position: center 27%;
+  background-size: 100%;
+}
+.bodyTreatmentbox {
+  height: 62vh;
+  padding: 0 8vh 0 8vh;
+}
+.magazineImgBox {
+  height: 30vh;
+  padding-bottom: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(247, 247, 247);
+}
+.brandName {
+  height: 20vh;
+  background-color: rgb(247, 247, 247);
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  .infoDiv {
+    max-height: 80vh;
+    background-color: rgb(252, 247, 247);
+    padding: 0 70px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    background-image: url("./photos/bgimg.png");
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-wrap: wrap;
+  }
+  .infoDivInnerBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    height: 50%;
+    width: 50%;
+    padding: 20px;
+  }
+  .infoDivIImage {
+    width: 25%;
+  }
+  .loremIP {
+    text-transform: capitalize !important;
+    font-size: 17px !important;
+    text-align: center;
+    color: #085044 !important;
+    font-family: Dosis Bold !important;
+    margin-top: 5px !important;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  .loremtext {
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 14px !important;
+    text-align: center;
+    color: #404040;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .infoDiv {
+    max-height: 80vh;
+    background-color: rgb(252, 247, 247);
+    padding: 0 70px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    background-image: url("./photos/bgimg.png");
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-wrap: wrap;
+  }
+  .infoDivIImage {
+    width: 25%;
+  }
+  .infoDivInnerBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    height: 50%;
+    width: 50%;
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .FTtopDiv {
+    padding: 0 0vh 0 0vh;
+    height: 20vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .FTbottomDiv {
+    height: 80vh;
+    padding: 0 0vh 0 0vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+  }
+
+  .FTbottomInnerDiv {
+    overflow: hidden;
+    height: 75%;
+    width: 75%;
+  }
+
+  .FTbottomInnerDivImgBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .FTtopDiv {
+    padding: 0 0vh 0 0vh;
+    height: 20vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .FTbottomDiv {
+    height: 80vh;
+    padding: 0 0vh 0 0vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+  }
+
+  .FTbottomInnerDiv {
+    overflow: hidden;
+    height: 75%;
+    width: 75%;
+  }
+
+  .FTbottomInnerDivImgBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .FTtopDiv {
+    padding: 0 0vh 0 0vh;
+    height: 20vh;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .FTbottomDiv {
+    height: 160vh;
+    padding: 0 0vh 0 0vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+  }
+
+  .FTbottomInnerDiv {
+    overflow: hidden;
+    height: 50%;
+    width: 50%;
+  }
+
+  .FTbottomInnerDivImgBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 661px){
+  .FTtopDiv1 {
+    height: 100%;
+    width: 300px;
+    overflow: hidden;
+  }
+
+  .FTtopDivBtn {
+    color: white;
+    height: 35px;
+    font-size: 15px;
+    max-width: 7rem;
+    min-width: 7rem;
+    background: #085044;
+    box-shadow: none !important;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+  .ContentContributor {
+    background-color: rgb(255, 222, 221);
+    height: 70vh;
+    padding: 0vh 0vh 0 0vh;
+  }
+  
+  .CCInnerDiv {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .CCtopDiv {
+    padding: 4vh 8vh 0 8vh;
+    height: 20vh;
+    /* background-color: ; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .CCbottomDiv{
+    height: 60vh;
+    padding: 0 8vh 0 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-evenly;
+  }
+  
+  .CCbottomInnerDivImgBox {
+    padding-top: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  .CCbottomInnerDivImg {
+    width: 80%;
+    height: 60%;
+    border-radius: 20px;
+  }
+  .CCbottomInnerDivImgBox:hover {
+    position: relative;
+    transition: ease-in 0.3s;
+    transform: scale(1.05);
+  }
+  
+  .CCLogo {
+    height: 80%;
+    width: 90%;
+    padding-left: 5%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+
+  .ContentContributor {
+    background-color: rgb(255, 222, 221);
+    height: 90vh;
+    padding: 0vh 0vh 0 0vh;
+  }
+  
+  .CCInnerDiv {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .CCtopDiv {
+    padding: 4vh 8vh 0 8vh;
+    height: 20vh;
+    /* background-color: ; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .CCbottomDiv {
+    height: 80vh;
+    padding: 8vh 8vh 8vh 8vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-evenly;
+  }
+  
+  .CCbottomInnerDivImgBox {
+    padding-top: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+  }
+  .CCbottomInnerDivImg {
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+  }
+  .CCbottomInnerDivImgBox:hover {
+    position: relative;
+    transition: ease-in 0.3s;
+    transform: scale(1.05);
+  }
+  
+  .CCLogo {
+    height: 80%;
+    width: 90%;
+    padding-left: 5%;
+  }
+  .FTbottomInnerDiv {
+    overflow: hidden;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+}

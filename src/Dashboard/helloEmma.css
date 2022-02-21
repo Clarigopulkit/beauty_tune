@@ -1,0 +1,242 @@
+.body {
+  background-image: url(../photos/login.png);
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  background-color: rgb(252, 247, 247);
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bodyHeader {
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+}
+
+.helloEmma_dashboard {
+    color : rgb(8, 80, 68);
+  height: 20vh;
+  width: 15vh;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  margin-left: 10vh;
+}
+
+.postRequest {
+  /* background-color: blue; */
+  /* width: 20vh; */
+  height: 20vh;
+  margin-right: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.helloEmma {
+  margin-top: 4vh;
+  color : rgb(8, 80, 68);
+}
+
+.postRequestButton {
+  background-color: rgb(8, 80, 68);
+  border-radius: 50px;
+  color: white;
+  padding: 3px 10px 3px 10px;
+  border:none;
+
+}
+
+.gridBody {
+  display: grid;
+  background-repeat: no-repeat;
+  grid-auto-flow: row;
+  grid-template-rows: 1fr;
+  grid-template-columns: 30vw 30vw 30vw;
+  column-gap: 5vh;
+  margin: 0 10vh 5vh 10vh;
+  height: 90vh;
+}
+
+.active {
+  background-color: white;
+  border: 2px solid#ffdedd;
+  height: 20vh;
+  width: 25vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.active_para,
+.active_order_para,
+.pending_amount_para {
+  margin: 3vh;
+}
+
+.active_img_box{
+  border : 1px solid black;
+  margin-right: 5px;
+  height: 10vh;
+  width: 10vh;
+  background-image: url("../photos/download\ \(1\).png");
+}
+
+.active_order_img {
+  background-image: url("../photos/download\ \(1\).png");
+  height: 10vh;
+  width: 10vh;
+  margin: 3vh;
+}
+
+
+.active_order {
+  background-color: white;
+  border: 2px solid#ffdedd;
+  height: 20vh;
+  width: 25vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.recommended_article {
+  background-color: white;
+  border: 2px solid#ffdedd;
+  height: 60vh;
+  width: 25vw;
+}
+
+.recommended_article_header {
+  height: 5vh;
+  background-color: rgb(255, 222, 221);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3vh 0 3vh;
+}
+ .recommended_article_heading{
+color :rgb(8, 80, 68);
+font-weight: 600;
+}
+
+
+.facepimple {
+  margin: 3vh;
+  height: 14vh;
+  padding: 1vh;
+}
+
+.facepimplebody {
+  display: flex;
+  flex-direction: row;
+   justify-content: center; 
+  align-items: center;
+}
+
+.lastest1img {
+  background-image: url("../photos/doctorImg.png");
+  background-position: center;
+  height: 8vh;
+  width: 10vh;
+  overflow: hidden;
+}
+
+.recommended_article_body {
+  display: flex;
+  flex-direction: column;
+  margin: 3vh;
+}
+
+
+.recommended_body_para{
+height: 16.5vh;
+}
+.recommended_body_para_heading{
+    margin-bottom: 0rem;
+    color :rgb(8, 80, 68);
+    font-weight: 600;
+}
+
+.doctorname_star {
+  display: flex;
+  height: 8vh;
+  width: 16vw;
+  margin: 0 0 0 3vh;
+  flex-direction: column;
+  justify-content:flex-start;
+}
+.facepimple_heading{
+  color :rgb(8, 80, 68);
+    font-weight: 600;
+}
+
+.starRating_image{
+  margin-top: -3vh;
+  height: 1rem;
+  object-fit: cover;
+  width: 5rem;
+}
+.rate_your_div1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 2vh;
+}
+.rate_your_image_div {
+  height: 12vh;
+  width: 15vh;
+  margin: 3vh;
+  background-image: url("../photos/doctorImg.png");
+  background-repeat: no-repeat;
+}
+.rate_your_drname_star {
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  width: 20vh;
+}
+
+.rate_your_div2 {
+  height: 20vh;
+  width: 22vw;
+  margin: 3vh;
+}
+
+.amount {
+  margin: -5vh 0 0 3vh;
+}
+
+.lastest_proposal {
+  background-color: white;
+  border: 2px solid#ffdedd;
+  height: 60vh;
+  width: 25vw;
+}
+.rate_your_completed_order {
+  background-color: white;
+  border: 2px solid#ffdedd;
+  height: 60vh;
+  width: 25vw;
+}
+.rate_your_btn_box{
+    margin: 3vh;
+    height: 5vh;
+    width: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rateyoursubmitbtn{
+  background-color: rgb(8, 80, 68);
+  border-radius: 50px;
+  color: white;
+  border: none;
+  padding: 5px 0 0 10px;
+  width: 20vw;
+}
